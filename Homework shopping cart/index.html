@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Homework online cart</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="headerDiv">
+        <h1>Fresh Vegatables Each Day !</h1>
+    </div>
+    <br>
+
+    <div class="fatherDiv">
+        <div id="product1" class="rowDiv">
+
+            <img src="media/1.png" alt=""> <br>
+            <span class="productName">Tomatos</span><br>
+            <span class="productPrice">12 ILS</span>
+            <div class="btnDiv">
+                <button onclick="addProduct('Tomato',12)" class="btnItem" id="1">Tomato</button>
+            </div>
+        </div>
+        <div class="rowDiv">
+            <img src="media/2.png" alt=""><br>
+            <span class="productName">Cucumbers</span><br>
+            <span class="productPrice">18 ILS</span>
+            <div class="btnDiv">
+                <button onclick="addProduct('Cucumber',18)" class="btnItem" id="2">Cucumber</button>
+            </div>
+        </div>
+        <div class="rowDiv">
+            <img src="media/3.png" alt=""><br>
+            <span class="productName">Carrots</span><br>
+            <span class="productPrice">20 ILS</span>
+            <div class="btnDiv">
+                <button onclick="addProduct('Carrot',20)" class="btnItem" id="3">Carrot</button>
+            </div>
+        </div>
+    </div>
+    <div class="cartDiv">
+        <div class="shopDiv">
+        </div>
+        <div class="mainCartDiv">
+            <h2>Shopping-Cart</h2>
+            <hr id="cartHr">
+            <div id="cartOn" class="textDiv">
+                <div class="cartHeader">
+                    <span class="nameSlots">Name</span>
+                    <span class="nameSlots" id="priceHead">Price</span>
+                    <span class="nameSlots">Remove</span>
+                    <div id="itemsList">
+                    </div>
+                </div>
+            </div>
+            <hr id="cartHr">
+            <div class="btnDiv2">
+                <button onclick="clearCart()" id="clearCartBtn">Clear</button>
+                <button onclick="sortProducts()" id="totalBtn" class="btnItem">Pay Now</button>   
+            </div>
+        </div>
+        <div class="shopDiv">
+        </div>
+    </div>
+
+</body>
+
+</html>

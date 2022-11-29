@@ -1,0 +1,132 @@
+body {
+    background-image: url(/media/cover2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    /* margin: 0; */
+}
+
+.headerDiv {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px #7db93c;
+}
+
+.fatherDiv {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.rowDiv {
+    text-align: center;
+    flex: 1;
+    height: 280px;
+}
+
+.cartDiv{
+    display: flex;
+}
+.shopDiv {
+    flex: 1;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+
+.mainCartDiv {
+
+    text-align: center;
+    background-color: #7db93c;
+    min-height: 200px;
+    font-size: 14px;
+}
+
+.textDiv {
+  background-image: url(media/wood.jpg);
+   width: 200px;
+   min-height: 200px;
+   /* border: 2px solid black; */
+   
+}
+.btnDiv2 {
+    padding: 10px 0;
+}
+.btnItem {
+    border-radius: 10px 10px ;
+    border: none;
+}
+
+.textDiv {
+    display: flex;
+    
+}
+
+.cartRow {
+    flex: 1;
+    /* border: 1px solid black; */
+    
+}
+
+
+#totalBtn {
+    padding: 5px 10px;
+    background-color: #f38a00;
+    box-shadow: 2px 2px black;
+}
+
+.cartHeaders {
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+#itemRemove {
+    color: #ffe4c4;
+    text-decoration: underline;
+}
+
+#cartHr {
+    background-color: red;
+    color: red;
+    border: 0.5px solid red;
+    margin: 0;
+}
+
+.cartHeader {
+    width: 100%;
+    padding: 0 20px;
+}
+
+#priceHead {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#itemsList {
+    width: 100%;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+}
+
+.productCtr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#clearCartBtn {
+    /* padding: 5px 10px; */
+    /* background-color: #f38a00; */
+    box-shadow: 2px 2px black;
+    border-radius: 10px 10px;
+    border: none;
+    margin-right: 25px;
+
+
+}
